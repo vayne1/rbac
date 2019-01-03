@@ -27,7 +27,7 @@ def init_permision(current_user, request):
                 'p_url':item['permissions__pid__url'],
             }
 
-
+        #左侧菜单
         menu_id = item['permissions__menu_id']
         if not menu_id:
             continue

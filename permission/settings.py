@@ -136,3 +136,9 @@ VALID_URL_LIST = [
     '/login/',
     '/admin/*',
 ]
+
+NO_PERMISSION_LIST = [
+    '/login/',
+    '/logout/',
+    '/index/',
+]
